@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/farouk-mechedal-iWmfPbKmxEQ-unsplash.jpg);
+}
+
+ul {
+    margin-right: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: rgb(255, 225, 57); */
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    /* background-color: rgb(0, 0, 0); */
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(119, 119, 119);
+}
+
+.active {
+    background-color: rgb(43, 226, 74);
+}

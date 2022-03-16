@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Html form exercise</title>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a class="active" href="form.html">Home</a></li>
+        <li>
+            <a href="form.html"> Form </a>
+        </li>
+        <li>
+            <a href="form.html">Contact Us</a></li>
+        <li style="float: right;"> <a href="form.html"> About us</a></li>
+    </ul>
+    <div class="brdr">
+        <h2> HTML FORM </h2>
+        <hr>
+        <form>
+            <div>
+                <label for="fname" class="fname">Name: </label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="pwd" class="pw">Password:</label><br>
+                <input type="password" id="pwd" name="pwd"><br><br>
+                <label style="margin-left: 100px;" for="myfile">Select a file: </label>
+                <input type="file" name="myfile" id="myfile"><br><br>
+            </div>
+            <hr>
+
+            <div style="margin-left: 100px;">
+                <label for="cars" id="car">Choose a brand car: </label><br><br>
+                <input type="radio" name="brand" id="car">
+                <label for="car">BMW</label>
+                <input type="radio" name="brand" id="car">
+                <label for="car">Ferarri</label><br><br>
+            </div>
+            <hr>
+
+            <div style="margin-left: 100px;">
+                <label for="Shoes">Choose your favorite Shoes</label><br><br>
+                <select style="padding-left: 30px; font-weight: bolder; width: 15%;" name="shoes" id="shoes" class="btn">
+                <option value="Nike">Nike</option>
+                <option value="Adidas">Adidas</option>
+                <option value="Puma">Puma</option>
+            </select><br><br>
+            </div>
+
+            <div style="margin-left: 100px;">
+                <label for="comment">Please give me a suggestion</label><br><br>
+                <textarea class="txtarea" name="comment">Comment in text area</textarea><br><br>
+                <button class="btnsubmit" type="button" onclick="alert('form successfully collected')">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
