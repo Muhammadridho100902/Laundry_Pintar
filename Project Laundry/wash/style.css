@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+.brand p{
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    color: #2d3436;
+    justify-content: center;
+}
+hr{
+    display: flex;
+    width:80%;
+    margin-left: 7.5rem;
+}
+.checkout{
+    width: 100%;
+}
+.checkout h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: lighter    ;
+}
+.checkout p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.billingadd h3{
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+/* -------------------------------------- */
+.namebox{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+.namebox input{
+    width: 300%;
+    padding: 2px;
+}
+/* ------------------------------------ */
+.addres{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 40rem;
+    font-weight: bold;
+}
+.addres input{
+    width: 300%;
+    padding: 2px;
+}
+
+/* ----------------------------- */
+.datapick{
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.datapick p{
+    font-weight: bold;
+}
+.datapick input{
+    width: 300px;
+}
+/* ------------------------------ */
+.devdate{
+    margin-top: -3.1rem;
+    margin-left: 32rem;
+}
+.devdate p{
+    font-weight: bold;
+}
+.devdate input{
+    width: 300px;
+}
+
+/* ------------------------------------- */
+.postcode{
+    margin-top: -3.1rem;
+    margin-left: 55rem;
+}
+.postcode p{
+    font-weight: bold;
+}
+.postcode input{
+    width: 300px;
+}
+/* ------------------------------------ */
+.hr2{
+    margin-top: 4rem;
+    display: flex;
+    width: 90%;
+    margin-left: 4rem;
+}
+/* ------------------------------------ */
+.servicepick{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.servicepick li{
+    list-style-type: none;
+    padding: 5px;
+}
+ul li label{
+    cursor: pointer;
+    position: relative;
+}
+/* ------------------------------------ */
+
+.shipping{
+    margin-top: 3rem;
+}
+input{
+    cursor: pointer;
+}
+.hr3{
+    margin-top: 1rem;
+    display: flex;
+    width: 90%;
+    margin-left: 4rem;
+}
+/* ------------------------------------ */
+
+.paymeth{
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+.paymeth h3{
+    margin-bottom: 1rem;
+}
+.paymeth li{
+    list-style-type: none;
+    padding: 4px;
+}
+
+/* --------------------------------------------- */
+
+.namecard{
+    position: absolute;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+.namecard input{
+    width: 180%;
+    padding: 2px;
+}
+.namecard span{
+    font-size: 10px;
+    color: gray;
+    width: 30%;
+}
+
+.creditnum{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 38rem;
+    font-weight: bold;
+}
+.creditnum input{
+    width: 300%;
+    padding: 2px;
+}
+.expire{
+    margin-top: 10rem;
+    font-weight: bold;
+}
+.cvv{
+    margin-top: -3rem;
+    margin-left: 15rem;
+    font-weight: bold;
+}
+.hr4{
+    margin-top: 1rem;
+    display: flex;
+    width: 90%;
+    margin-left: 4rem;
+}
+/* ----------------------------------- */
+.section4{
+    height: 12vh;
+}
+.buttonsub{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    width: 90%;
+    border-radius: 15px;
+    background: #2ecc71 ;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+.buttonsub:hover{
+    background-color: #2d3436;
+}
+.buttonsub p{
+    color: white;
+    font-weight:inherit;
+    word-spacing: 1px;
+}
